@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root{
+      --accent-color: #0e90a8;
+    }
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 20%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #c6c6c6;
+      overflow-x: auto;
+      overflow-y: auto;
+      
+      transition: 0.5s;
+      padding-top: 20px;
+      font-size: 12px;
+      box-shadow: 11px 0px 10px 0px rgba(69,69,69,0.75);
+-webkit-box-shadow: 11px 0px 10px 0px rgba(69,69,69,0.75);
+-moz-box-shadow: 11px 0px 10px 0px rgba(69,69,69,0.75);
+    }
+
+    .sidenav a {
+      
+      text-decoration: none;
+      color: #515352;
+     
+    }
+
+   
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    .main{
+      margin-left: 20%;
+    }
+    .title-container {
+      height: 100%;
+      width: 100%;
+      position: relative;
+
+    }
+
+    .title {
+      position: absolute;
+
+      top: 15%;
+      left: 20px;
+      color: white;
+      font-size: 40pt;
+
+    }
+    .header{
+      left:20%;
+      color:#111;
+    }
+    .border-img {
+
+      height: 90%;
+      width: 100%;
+    }
+      .color{
+        color:var(--accent-color);
+      }
+      .text{
+        padding:20px 20px 0px 20px;
+      }
+     .color td{
+        text-align: left;
+        
+      }
+    .color  td:nth-child(3){
+        padding:0px 10px 0px 50px;
+      }
+    .color  td:nth-child(2){
+        padding:0px 0px 0px 50px;
+      }
+     
+.work-cont{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ align-content: center;
+text-align: center;
+  
+  
+  width: 160px;
+}
+.work-cont span{
+  color:rgb(117, 118, 118);
+}
+.work-cont-cont{
+  display: flex;
+  
+  
+}
+.work-cont:nth-child(2){
+  padding-left: 140px;
+}
+
+progress {
+  border-radius: 2px; 
+  width: 110px;
+  height: 10px;
+  
+  
+}
+progress::-webkit-progress-bar {
+  background-color:white;
+  
+}
+progress::-webkit-progress-value {
+  background-color: var(--accent-color);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+}
+.circle{
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.circle img{
+  border-radius: 50%;
+}
+.centerH{
+  margin-left: auto;
+  margin-right: auto;
+}
+.side-title{
+  background-color: #515352;
+  padding: 2px 20px 2px 20px;
+  text-align: center;
+  font-size: 10pt;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+progress::-moz-progress-bar {
+  /* style rules */
+}
+    @media only screen and (max-width: 768px) {
+
+      /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
+      .title {
+        top: 12%;
+        font-size: 15pt;
+        
+      }
+      .sidenav{
+        width: 30%;
+        
+      }
+      .main{
+        margin-left: 30%;
+      }
+      .table img{
+        height: 20px;
+        width: 20px;
+      }
+      .work-cont:nth-child(2){
+  padding-left: 10px;
+}
+.circle{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+}
+.circle   img{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+      }
+      .title{
+        font-size: 10pt;
+      }
+
+      .color  td:nth-child(3){
+        padding:0px 0px 0px 0px;
+      }
+    .color  td:nth-child(2){
+        padding:0px 0px 0px 0px;
+      }
+      
+
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+ <div class="circle">
+  <!-- <img height="140px" width="140px" src="call-center-boy-svgrepo-com.svg"> -->
+</div>
+ <br><div class="side-title">CONTACT</div>
+ <table>
+  <tr>
+    <td><img height="30px" width="50px" src="mail.svg"></td>
+    <td>rakibul.fiverr@gmail.com</td>
+  </tr>
+  <tr>
+    <td><img height="30px" width="50px" src="call.svg"></td>
+    <td>+880 1811 141419<br>
+        +880 1730 598557</td>
+  </tr>
+  <td><img height="30px" width="50px" src="location.svg"></td>
+  <td>Mirpur-14<br>
+      215 No Ibrahim-pur<br>
+      Dhaka, Bangladesh</td>
+</tr>
+ <td><img height="30px" width="50px" src="location.svg"><br><br><br></td>
+  <td>Vill: East-Darbesh Kata,<br>
+      P.O.- Mokbolabad<br>
+      Dist.- Cox's Bazar,<br>
+      Bangladesh</td>
+</tr>
+
+ </table>
+
+<br><div class="side-title">SKILL</div>
+<table class="centerH">
+  <tr>
+    <td>Python Scapy</td>
+    <td><progress value="80" max="100" ></progress></td>
+  </tr>
+  <tr>
+    <td>Adobe Illustrator</td>
+    <td><progress value="95" max="100" ></progress></td>
+  </tr>
+  
+  <tr>
+    <td>Adobe Photoshop</td>
+    <td><progress value="90" max="100" ></progress></td>
+  </tr>
+  
+  <tr>
+    <td>Microsoft Application</td>
+    <td><progress value="80" max="100" ></progress></td>
+  </tr>
+  
+  <tr>
+    <td>Digital Marketing</td>
+    <td><progress value="90" max="100" ></progress></td>
+  </tr>
+  
+</table>
+
+<br><div class="side-title">System</div>
+<table  class="centerH">
+  <tr>
+    <td>Linux</td>
+    <td><progress value="90" max="100" ></progress></td>
+  </tr>
+  <tr>
+    <td>Windows</td>
+    <td><progress value="90" max="100" ></progress></td>
+  </tr>
+  
+  <tr>
+    <td>Mac</td>
+    <td><progress value="70" max="100" ></progress></td>
+  </tr>
+  
+ 
+</table>
+<br><div class="side-title">Social Media</div>
+LinkedIn<br>
+<a href="https://www.linkedin.com/in/rakibul-hasan">https://www.linkedin.com/in/rakibul-hasan</a><br>
+
+<br> 
+
+Facebook<br>
+<a href="https://www.facebook.com/rakibulh02">https://www.facebook.com/rakibulh02</a><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+<div class="main">
+  
+  <div class="title-container">
+    <div class="header title">CURRICULUM VITAE</div>
+    <img height="200px" width="100%" class="border-img" src="header-border.svg?i=88">
+
+  </div> 
+
+
+  <div class="text">
+  <h1>RAKIBUL HASAN SAIMUN</h1>
+  <h4 class="color">GRAPHIC DESIGNER</h4>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae leo eu risus ultricies cursus. Integer ac felis vel massa posuere cursus non a tellus. Duis et felis vitae lacus consectetur ullamcorper vel ac felis. Aenean aliquam nec justo vel laoreet. Nullam malesuada vel ligula nec varius. Morbi dignissim, mi nec tincidunt accumsan, dolor massa elementum sapien, nec gravida dui mauris nec tortor. Cras ac condimentum sem. Suspendisse potenti. Phasellus in urna nec augue eleifend dapibus. Vivamus hendrerit a augue non vestibulum.
+  <br><br>
+Sed et est in libero egestas vehicula. Maecenas nec urna justo. Vivamus bibendum tincidunt libero, nec ullamcorper justo vestibulum non. Duis et sapien a urna feugiat congue. Vestibulum tincidunt diam a odio dictum vestibulum. Etiam ut tellus ut purus commodo ullamcorper. Duis nec bibendum dui, ac viverra eros.
+</div>
+  <div class="title-container">
+    <div class="title">PERSONAL INFORMATION</div>
+    <img height="200px" width="100%" class="border-img" src="border.svg?i=88">
+
+  </div>
+  <div class="text">
+
+<table class="color">
+  <tr>
+    <td>Father's Name</td>
+    <td>:</td>
+    <td>Abdus Samad</td>
+  </tr>
+  <tr>
+    <td>Mother's Name</td>
+    <td>:</td>
+    <td>Maleka Parvin</td>
+  </tr>
+  <tr>
+    <td>Date of Birth</td>
+    <td>:</td>
+    <td>28th December 1997</td>
+  </tr>
+  <tr>
+    <td>Religion</td>
+    <td>:</td>
+    <td>Islam</td>
+  </tr>
+  <tr>
+    <td>Nationality</td>
+    <td>:</td>
+    <td>Bangladeshi</td>
+  </tr>
+  <tr>
+    <td>Home District</td>
+    <td>:</td>
+    <td>Chittagong</td>
+  </tr>
+  <tr>
+    <td>Marital Status</td>
+    <td>:</td>
+    <td>Unmarried</td>
+  </tr>
+  <tr>
+    <td>Blood Group</td>
+    <td>:</td>
+    <td>(O+ve)</td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>:</td>
+    <td>Male</td>
+  </tr>
+</table>
+  </div>
+
+  <div class="title-container">
+    <div class="title">Education</div>
+    <img height="200px" width="100%" class="border-img" src="border.svg?i=88">
+
+  </div>
+  <div class="text color">
+2014-2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diploma and Engineering
+<hr>
+<table >
+  <tr>
+    <td>Institute</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Subject</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Passing Year</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Result</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Board</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  
+</table>
+
+<br>
+<br>
+<br>
+2012-2013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secondary School Certificate (S.S.C)
+<hr>
+<table >
+  <tr>
+    <td>Institute</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Subject</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Passing Year</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Result</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>Board</td>
+    <td>:</td>
+    <td>---</td>
+  </tr>
+  
+</table>
+
+  </div>
+
+  <div class="title-container">
+    <div class="title">Work Experience</div>
+    <img height="200px" width="100%" class="border-img" src="border.svg?i=88">
+
+  </div>
+  <div class="text">
+    <div class="work-cont-cont">
+          <div class="work-cont" >
+    <div style="background-color: rgb(0, 227, 227); padding: 10%; height: 90px; width: 90px;"> <img src="call-center-boy-svgrepo-com.svg?i=uu" height="80px" width="80px"></div>
+    
+  <span>Junior Developer</span><br>
+  Datasik Technologiest
+  </div>
+
+  <div class="work-cont" >
+    <div style="background-color: rgb(0, 227, 227); padding: 10%; height: 90px; width: 90px;"> <img src="to-do-list-svgrepo-com.svg?i=ii" height="80px" width="80px"></div>
+    
+  <span>Account manager</span><br>
+  Popular Library
+  </div>
+</div>
+
+    </div>
+</div>
+    <progress value="90" max="100"></progress>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+</body>
+
+</html>

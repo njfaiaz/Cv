@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="1400"
+   height="800"
+   viewBox="0 0 42 24"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><linearGradient
+       id="linearGradient1"><stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1" /><stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2" /></linearGradient><linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="8"
+       y1="32"
+       x2="56"
+       y2="32"
+       gradientUnits="userSpaceOnUse" /></defs><path
+     id="rect1"
+     style="fill:#515352;stroke-width:0.483591"
+     d="m 0.05401098,0.09542743 42.08283102,-0.06 c 0.01621,-2.311e-5 0.03729,0.01517516 0.02926,0.02925949 L 28.486937,24.060501 l 0.169647,-0.11537 -28.60257302,0.06232 c -0.01620972,3.5e-5 -0.02925949,-0.01305 -0.02925949,-0.02926 V 0.12468692 c 0,-0.0162098 0.01304975,-0.02923638 0.02925949,-0.02925949 z" /><g
+     id="g3"
+     transform="matrix(0.28287773,0,0,0.29984158,13.922962,2.3144136)"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1">&#10;	<path
+   fill="#231f20"
+   d="M 32,0 C 18.745,0 8,10.745 8,24 c 0,5.678 2.502,10.671 5.271,15 L 30.368,63.156 C 30.743,63.686 31.352,64 32,64 c 0.648,0 1.257,-0.314 1.632,-0.844 L 50.729,39 C 53.375,35.438 56,29.678 56,24 56,10.745 45.255,0 32,0 Z m 16.087,39 h -0.01 L 32,61 15.923,39 h -0.01 C 13.469,35.469 10,29.799 10,24 10,11.85 19.85,2 32,2 c 12.15,0 22,9.85 22,22 0,5.799 -3.719,11.781 -5.913,15 z"
+   id="path1"
+   style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1" />&#10;	<path
+   fill="#231f20"
+   d="m 32,14 c -5.523,0 -10,4.478 -10,10 0,5.522 4.477,10 10,10 5.523,0 10,-4.478 10,-10 0,-5.522 -4.477,-10 -10,-10 z m 0,18 c -4.418,0 -8,-3.582 -8,-8 0,-4.418 3.582,-8 8,-8 4.418,0 8,3.582 8,8 0,4.418 -3.582,8 -8,8 z"
+   id="path2"
+   style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1" />&#10;	<path
+   fill="#231f20"
+   d="m 32,10 c -7.732,0 -14,6.268 -14,14 0,7.732 6.268,14 14,14 7.732,0 14,-6.268 14,-14 0,-7.732 -6.268,-14 -14,-14 z m 0,26 c -6.627,0 -12,-5.373 -12,-12 0,-6.627 5.373,-12 12,-12 6.627,0 12,5.373 12,12 0,6.627 -5.373,12 -12,12 z"
+   id="path3"
+   style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1" />&#10;</g></svg>
